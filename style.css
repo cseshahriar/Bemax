@@ -26,7 +26,28 @@ a{
 }
 .logo {
 	float: left;
+	margin-top: 36px; 
 }
+
+/* search icon */
+
+.search-icon {
+	float: right;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: relative;
+	padding-left: 25px;
+	top: 3px;
+}
+.search-icon:before {
+	background: #ccc;
+	height: 15px;
+	width: 2px;
+	content: "";
+	position: absolute;
+	left: 0;
+}
+
 /*menu*/
 .main-menu {
 	float: right; 
@@ -90,3 +111,4 @@ a{
 	opacity: 1;
 	visibility: visible; 
 }
+
