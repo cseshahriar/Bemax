@@ -14,6 +14,9 @@ ul{
 a{
 	transition: .3s;
 }
+.fix {
+	overflow: hidden;
+}
 /* header */
 .header-area {
 	border-top: 5px solid #4272d7; 
@@ -112,3 +115,71 @@ a{
 	visibility: visible; 
 }
 
+/* Slider */
+.slider-area {
+	overflow: hidden;
+	width: 100%;
+}
+.single-slide {
+	text-align: center;
+	padding: 175px 0px;
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+}
+.single-slide h4{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.single-slide h2{
+	color: #fff;
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.single-slide a{
+	display: inline-block;
+	padding: 15px;
+	background:  #4272d7;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 30px; 
+}
+.owl-nav button{
+	background: #333 !important;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50px; 
+	top: 50%;
+	text-align: center;
+	line-height: 40px; 
+}
+.owl-nav button i {
+	color: #fff;
+}
+.owl-prev {}
+.owl-nav button.owl-next {
+	right: 50px;
+	left: auto; 
+}
+.slider-active .owl-dots {
+	text-align: center;
+	margin-top: -40px;
+	z-index: 999;
+	position: relative;
+	margin-bottom: 50px;
+}
+.slider-active .owl-dot {
+	height: 10px;
+	width: 10px;
+	background: #333 !important; 
+	display: inline-block;
+	margin: 0 2px;
+	border-radius: 50%; 
+}
+.slider-active .owl-dot.active {
+	background: #4272d7 !important;
+}
