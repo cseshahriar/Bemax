@@ -36,5 +36,10 @@ $(document).ready(function() {
             }
         }
     })
+
+    //video popup
+    $('.video-popup').magnificPopup({ 
+        type: 'image'
+    });
     
 });
