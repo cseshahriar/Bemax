@@ -26,6 +26,9 @@ a{
 .pb-70 {
 	padding-bottom:70px; 
 }
+.mb-80 {
+	margin-bottom: 80px; 
+}
 .white-text {
 	color: #fff;
 }
@@ -308,7 +311,7 @@ a{
 }
 .section-title {
 	text-align: center;
-	margin-bottom: 80px; 
+	/*margin-bottom: 80px; */
 }
 .section-title h2{
 	font-size: 20px;
@@ -453,4 +456,19 @@ a{
 	padding-left: 15px;
 	font-size: 16px;
 	color: #555;
+}
+/*working area*/
+.working-area {
+	padding: 180px 0;
+}
+.working-text a{
+	display: inline-block;
+    padding: 15px;
+    background: #4272d7;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.working-text p {
+	margin:10px 0; 
 }
