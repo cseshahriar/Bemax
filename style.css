@@ -572,16 +572,18 @@ a{
  .testimonial-text i{}
  .testimonial-text p{padding-left: 15px; padding-bottom: 20px; border-bottom: 1px solid #e6e6e6;} 
 
-.testimonial-img {
-	margin-top: 20px;
-	margin-left: 40px;
-	display: flex; 
+.testimonial-client {
+	display: flex;
+	padding-top: 15px;
+	padding-left: 20px;
 }
-.testimonial-img img{
+.client-img {} 
+.client-img img{} 
+.client-title {
+	padding-left: 15px;
 }
-.testimonial-img .title {padding-left: 15px;} 
-.testimonial-img .title h3{}
-.testimonial-img .title h4{}
+.client-title h3{}
+.client-title h4{}
 
 /* brand */
 .brand-area .single-brand a img{ 
