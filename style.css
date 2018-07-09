@@ -9,7 +9,7 @@ body {
 ul{
 	margin: 0;
 	padding: 0;
-	list-style: none; 
+	list-style: none;  
 }
 a{
 	transition: .3s;
@@ -23,8 +23,14 @@ a{
 .gray-bg {
 	background: #f2f2f2; 
 }
-.pt-70 {
+.pt-30 {
 	padding-top:70px;    
+}
+.pb-30 {
+	padding-bottom:70px; 
+}
+.pt-70 {
+	padding-top:70px;     
 }
 .pb-70 {
 	padding-bottom:70px; 
@@ -582,3 +588,99 @@ a{
     display: block;
     width: inherit; 
 }
+/* footer area */
+footer {
+	background: #171e21; 
+	overflow: hidden;
+	/*padding: 60px 0;*/
+}
+.footer-area {
+	padding: 60px 0;	
+}
+.footer-widget{}
+.footer-widget img{
+	margin-bottom: 15px;
+}
+.footer-widget h3 {
+	font-size:15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+.footer-widget p {
+    color: #999;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.footer-sofial{}
+.footer-sofial a {
+    color: #fff;
+    font-size: 15px;
+    background: #1b2334;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    margin-right: 10px;
+   /* transition default */
+}
+.footer-sofial a:hover {
+	background: #4272d7;
+}
+.footer-sofial a i{}
+
+.footer-link{}
+.footer-link li{
+	margin-bottom: 20px;   
+	list-style: square;
+	color: #ccc;
+}
+.footer-link li a{
+	color: #ccc;
+	text-decoration: none;
+	font-size: 13px;
+}    
+
+.footer-contact {}
+.footer-contact li{
+	color: #999;
+	font-size: 13px;
+	margin-bottom: 20px;
+	line-height: 15px; 
+}
+/*footer area form*/
+.footer-widget form {
+	position: relative;
+}
+.footer-widget form input {
+	height: 40px;
+	width: 100%;
+	border: 0;
+	padding: 0 15px;
+	background: #2f3138;
+	color: #fff;
+}
+.footer-widget form button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    background: #4272d7;
+    border: 0;
+    padding: 0 15px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*footer bottom*/
+.copyright-area {
+	border-top: 1px solid #23262c; 
+}
+.copyright-text{
+	text-align: center;
+	color: #fff;
+}
+.copyright-text p{}
