@@ -29,7 +29,7 @@ $(document).ready(function() {
                 items:1
             },
             600:{
-                items:1
+                items:4
             },
             1000:{
                 items:4
@@ -78,7 +78,7 @@ $(document).ready(function() {
     //brand
     $('.brand-active').owlCarousel({
         loop:true,
-        nav:true,
+        nav:false,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],  
         dots: true,
         autoplay: true,
@@ -90,7 +90,10 @@ $(document).ready(function() {
             600:{
                 items:6
             },
-            1000:{
+            992:{
+                items:5
+            },
+            1200:{
                 items:6
             }
         }
