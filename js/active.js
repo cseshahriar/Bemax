@@ -23,13 +23,15 @@ $(document).ready(function() {
         loop:true,
         nav:true,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],  
-        dots: true,
         responsive:{
             0:{
                 items:1
             },
             600:{
-                items:4
+                items:2
+            },
+            768:{
+                items:2
             },
             1000:{
                 items:4
@@ -85,10 +87,10 @@ $(document).ready(function() {
         margin:50,
         responsive:{
             0:{
-                items:6
+                items:2
             },
             600:{
-                items:6
+                items:4
             },
             992:{
                 items:5

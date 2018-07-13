@@ -223,7 +223,7 @@ a{
 	color: #fff;
 }
 .owl-prev {}
-.owl-nav button.owl-next {
+.owl-nav button.owl-next { 
 	right: 50px;
 	left: auto; 
 }
@@ -440,6 +440,25 @@ a{
 }
 .section-title.white-text > h2:before {
 	background: #fff;
+}
+
+.project-active .owl-nav button{ 
+	background: #fff !important;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50px; 
+	top: 50%;
+	text-align: center;
+	line-height: 40px; 
+}
+.project-active.owl-nav button i {
+	color: #333;
+}
+.owl-prev {}
+.project-active.owl-nav button.owl-next {
+	right: 50px;
+	left: auto; 
 }
 /* video area */
 .video-area{}
