@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    // menu
+    jQuery('#mobile-menu').meanmenu({
+        meanScreenWidth: "767",
+        meanMenuContainer: '.menu-place'
+    });
+
     //main slider
     $('.slider-active').owlCarousel({
         loop:true,
