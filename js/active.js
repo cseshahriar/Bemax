@@ -11,7 +11,7 @@ $(document).ready(function() {
         nav:true,
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],  
         dots: true,
-        responsive:{
+        responsive:{ 
             0:{
                 items:1
             },
