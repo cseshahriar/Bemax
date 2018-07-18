@@ -106,10 +106,26 @@
  	.single-fetures {
 		margin-bottom: 15px;
 	}
+	.owl-nav {
+    	display: none;
+	}
+	.col-6 {
+    	width: 100%;
+	}
+	.video img { 
+    	width: 100%; 
+	}
+	.choose-title h3 {
+    	margin-top: 15px;
+	}
+	.col-3 {
+    	width: 100%;
+	}
+
 }
  
 /* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
 
  
 }
